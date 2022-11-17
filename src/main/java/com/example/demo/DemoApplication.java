@@ -36,7 +36,7 @@ public class DemoApplication {
 		HttpStatus statusCode = result.getStatusCode();
 		System.out.println("status code - " + statusCode);
 
-		String user = result.getBody();//помощью getBody(). Это и будет тот самый 6-ти значны
+		String user = result.getBody();
 		System.out.println("response body - " + user);
 
 		HttpHeaders responseHeaders = result.getHeaders();
